@@ -1,3 +1,4 @@
+
 name: JSDoc build on GitHub repo
 
 on: [push, workflow_dispatch]
@@ -9,7 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          ref: 02-solution-study-case
+          ref: DicodingCourse
       
       - name: Build
         uses: andstor/jsdoc-action@v1
